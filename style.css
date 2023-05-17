@@ -144,3 +144,21 @@ img{
     width:400px;
 
 }
+.tapme{
+    position: absolute;
+    bottom: -250%;
+     left:11%;
+     transform: translate(0,444%);
+     font-size: 17px;
+     width:100px;
+     background-color: transparent;
+     border: 2px solid #4e122c;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color: white;
+    cursor: pointer;
+}
+
+.tapme:hover{
+    background-color: #4e122c;
+    border: 2px solid #C88EA7;
+}

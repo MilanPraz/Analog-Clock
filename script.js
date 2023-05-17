@@ -7,6 +7,13 @@ let meme2= new Audio("meme2.mp3")
 let ash1= new Audio("ashneer1.mp3")
 let ash2= new Audio("ashneer2.mp3")
 
+
+// let playme=()=>{
+//     sound.load();
+//     sound.play();
+
+// };
+
 let updateclock=()=>{
 
     let newdate= new Date();
@@ -34,9 +41,11 @@ let updateclock=()=>{
             sound.play();
 
             if(secdeg===0){
+               
                 meme1.play();
             }
             if(secdeg===12){
+
                 ash2.play();
             }
             if(secdeg===42){
@@ -58,7 +67,9 @@ let updateclock=()=>{
                 meme2.play();
             }
        
-        }
+        
+
+    }
         
      
     
@@ -66,9 +77,12 @@ let updateclock=()=>{
 
 // updateclock();
 
+
+
 // also can do with setINterval
 
 setInterval(updateclock,1000);
+
 
 
 
