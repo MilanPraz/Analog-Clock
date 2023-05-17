@@ -134,3 +134,13 @@ img{
     text-shadow: 2px 2px 5px rgb(0,0,0,.8);
     user-select: none;
 }
+
+.text .note{
+    position: absolute;
+   bottom: -250%;
+    left:-66%;
+    transform: translate(0,444%);
+    font-size: 17px;
+    width:400px;
+
+}
